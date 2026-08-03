@@ -53,6 +53,14 @@ Once you have launched the Server, you can use the API in your own program to se
    for choice in choices:
       print(f"{choice['message']['content']}\n")
 
+.. tip::
+
+   The same OpenAI-compatible ``/v1/chat/completions`` surface also works with the
+   official OpenAI Python client via ``base_url`` (e.g. ``OpenAI(base_url="http://127.0.0.1:8080/v1", api_key="-"``).
+   When you are not self-hosting MLC, the same client pattern works with other
+   OpenAI-compatible multi-model gateways — for example `DaoXE <https://daoxe.com?utm_source=github&utm_medium=organic&utm_campaign=mlc-llm&utm_content=rest>`_
+   at ``https://api.daoxe.com/v1``.
+
 Run CLI with Multi-GPU
 ----------------------
 
