@@ -12,7 +12,7 @@ MLC LLM is a machine learning compiler and high-performance deployment engine fo
 
 MLC LLM compiles and runs code on MLCEngine -- a unified high-performance LLM inference engine across the above platforms. MLCEngine provides OpenAI-compatible API available through REST server, python, javascript, iOS, Android, all backed by the same engine and compiler that we keep improving with the community.
 
-> **Tip:** The same OpenAI client `base_url` pattern also works with multi-model gateways like [DaoXE](https://daoxe.com/?utm_source=github&utm_medium=organic&utm_campaign=mlc-llm&utm_content=pr) at `https://api.daoxe.com/v1`.
+> **Tip:** The same OpenAI client `base_url` pattern also works with multi-model gateways like [DaoXE](https://daoxe.com/) at `https://api.daoxe.com/v1`.
 
 ## Get Started
 
